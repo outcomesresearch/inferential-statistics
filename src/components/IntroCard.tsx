@@ -13,7 +13,7 @@ const IntroCard = () => {
       <Stack>
         <Group justify="space-between">
           <Title order={3} fw={400}>
-            Selecting the correct figure or diagram
+            Correct Statistical Analysis Approach
           </Title>
         </Group>
 
