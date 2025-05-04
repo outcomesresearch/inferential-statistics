@@ -4,18 +4,21 @@ const Component = () => {
   return (
     <>
       <Text>
-        Cox PH regression is a method used to examine the relationship between
-        covariates (independent variables) and the time it takes for an event to
-        occur (the time-to-event outcome) in survival data. The model assumes
-        that the hazard function —which represents the instantaneous risk of the
-        event happening at any given time—can be broken down into two parts: a
-        baseline hazard function and an exponential function of the predictor
-        variables. This relationship is assumed to remain constant over time .
+        Cox PH regression is a semi-parametric survival analysis statistical
+        technique used to examine the relationship between one or more predictor
+        variables and the hazard (or risk) of an event happening at a particular
+        time. The exponentiated Cox regression coefficients are known as hazard
+        ratios (HR) that quantify the effects of independent variables on the
+        time to the event of interest after controlling for other variables in
+        the model.
       </Text>
       <Text>
-        Cox regression estimates regression coefficients that show the impact of
-        each predictor on the event’s timing, while accounting for the influence
-        of other variables in the model.
+        The key assumption in Cox PH regression is that the ratio of hazards
+        between different levels of predictor variables remains constant over
+        time. It means that if a variable has a certain effect on the hazard at
+        one time, it continues to have that same effect throughout the study
+        period. The Cox PH regression model does not make any assumptions about
+        the distribution of the baseline hazard function.
       </Text>
     </>
   );
