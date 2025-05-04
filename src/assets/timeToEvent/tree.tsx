@@ -2,7 +2,6 @@ import FocusOfAnalysis from "../../components/stepComponents/FocusOfAnalysis";
 
 import correlationContinuousMeasureTree from "./correlationContinuousMeasure/tree";
 import comparisonOfTwoGroupsTree from "./comparisonGroups/tree";
-import multiVariableAnalysisTree from "./multiVariableAnalysis/tree";
 
 import { ROOT, TTE } from "../ids";
 import * as ids from "./ids";
@@ -24,17 +23,11 @@ const tree: Record<string, TreeNode> = {
         next: ids.COMPARISON_OF_GROUPS,
         option_description: "",
       },
-      {
-        answer: "Multivariable analysis",
-        next: ids.MULTIVARIABLE_ANALYSIS,
-        option_description: "",
-      },
     ],
     inputs: [ROOT],
   },
   ...correlationContinuousMeasureTree,
   ...comparisonOfTwoGroupsTree,
-  ...multiVariableAnalysisTree,
 };
 
 export default tree;
