@@ -21,6 +21,13 @@ const Component = () => {
         Odds ratios quantify the strength of the relationship of each predictor
         with the outcome after controlling for other variables in the model.
       </Text>
+      <Text>
+        Given the complexity of logistic regression and its interpretation,
+        consulting with a statistician is recommended to ensure accurate
+        implementation and proper interpretation of the results obtained from
+        logistic regression analyses. Their expertise can enhance the quality
+        and reliability of the findings.
+      </Text>
     </>
   );
 };
