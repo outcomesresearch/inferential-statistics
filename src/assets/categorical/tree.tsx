@@ -17,19 +17,17 @@ const tree: Record<string, TreeNode> = {
       {
         answer: "Correlation with continuous measure",
         next: ids.CORRELATION_WITH_CONTINUOUS_MEASURE,
-        option_description:
-          "Studying the relationship between continuous variables",
+        option_description: "",
       },
       {
         answer: "Comparison of > 2 groups",
         next: ids.COMPARISON_OF_2_GROUPS,
-        option_description: "Studying differences across two or more groups",
+        option_description: "",
       },
       {
         answer: "Multivariable analysis",
         next: ids.MULTIVARIABLE_ANALYSIS,
-        option_description:
-          "Analyzing the effect of multiple variables on an outcome",
+        option_description: "",
       },
     ],
     inputs: [ROOT],

@@ -13,7 +13,7 @@ const tree: Record<string, TreeNode> = {
     title:
       "Is the association linear, and are parametric test assumptions met?",
     component: () =>
-      `Understanding whether the relationship between variables is linear and whether the assumptions of parametric tests hold helps determine the most suitable statistical method for the analysis.`,
+      `A linear relationship between two variables can be represented by a straight line when plotted on a graph and it means that as one variable changes, the other changes in a consistent, proportional way.  Meanwhile, parametric statistics assumptions include independent observations, data is continuous and randomly selected, normally distributed with no outliers, and has homogeneity of variance (between groups)`,
     choices: [
       {
         answer: "Yes",

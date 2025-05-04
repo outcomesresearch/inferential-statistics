@@ -17,8 +17,7 @@ const tree: Record<string, TreeNode> = {
       {
         answer: "Correlation with continuous variable",
         next: ids.CORRELATION_WITH_CONTINUOUS_VARIABLE,
-        option_description:
-          "Studying the relationship between continuous variables",
+        option_description: "",
       },
       {
         answer: "Comparison of groups of a categorical level variable",
@@ -28,8 +27,7 @@ const tree: Record<string, TreeNode> = {
       {
         answer: "Multivariable analysis",
         next: ids.MULTIVARIABLE_ANALYSIS,
-        option_description:
-          "Analyzing the effect of multiple variables on an outcome",
+        option_description: "",
       },
     ],
     inputs: [ROOT],

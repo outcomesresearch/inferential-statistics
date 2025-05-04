@@ -15,9 +15,10 @@ const Component = () => {
         exhibit more variability than expected under a Poisson distribution
         assumption. In negative binomial regression, one or more independent
         variables are used to model the count variable while accounting for this
-        over-dispersion. This type of regression allows for the estimation of
-        the relationship between the count outcome and the predictors,
-        considering the excessive variability present in the data.
+        over-dispersion. The exponentiated coefficients of Negative Binomial
+        Regression represent rate ratios or relative risk for outcome (change in
+        the expected count) for every one-unit increase in the corresponding
+        predictor variable, after controlling for other variables in the model.
       </Text>
       <Text>
         Due to the complexity of dealing with over-dispersed count data, it is

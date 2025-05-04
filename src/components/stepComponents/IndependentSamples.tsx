@@ -14,7 +14,6 @@ const Component = () => {
         pressure levels between two different age groups or to assess the
         effectiveness of two different treatments in a clinical trial.
       </Text>
-
       <Text>
         The test assumes that the two groups are independent, meaning that the
         observations in one group do not influence the other group.

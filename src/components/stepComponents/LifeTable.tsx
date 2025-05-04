@@ -25,9 +25,7 @@ const Component = () => {
         , is a non-parametric statistical test commonly used in survival
         analysis to determine if there is a statistically significant difference
         in the survival experiences of different groups based on their
-        time-to-event data. This test is based on the ranked event times and
-        assesses if there are significant differences in the survival
-        distributions among the groups being compared.
+        time-to-event data.
       </Text>
     </>
   );

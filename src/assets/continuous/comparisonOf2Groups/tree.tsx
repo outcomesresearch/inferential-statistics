@@ -32,8 +32,7 @@ const tree: Record<string, TreeNode> = {
   [ids.INDEPENDENT]: {
     type: "question",
     title: "Are parametric assumptions met?",
-    component: () =>
-      "Parametric tests rely on specific assumptions to provide accurate results. If these assumptions are not met, the test may give misleading conclusions, and non-parametric alternatives may be more appropriate.",
+    component: () => PARAMETRIC_ASSUMPTIONS_MET,
     choices: [
       {
         answer: "Yes",

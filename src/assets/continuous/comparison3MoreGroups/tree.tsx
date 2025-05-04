@@ -8,6 +8,9 @@ import { CONTINUOUS } from "../../ids";
 import * as ids from "./ids";
 import { TreeNode } from "../../types";
 
+export const PARAMETRIC_ASSUMPTIONS_MET =
+  "Parametric statistics assumptions include independent observations, data is continuous and randomly selected, normally distributed with no outliers, and has homogeneity of variance (between groups)";
+
 const tree: Record<string, TreeNode> = {
   [COMPARISON_OF_3_OR_MORE_GROUPS]: {
     type: "question",
@@ -33,8 +36,7 @@ const tree: Record<string, TreeNode> = {
   [ids.INDEPENDENT]: {
     type: "question",
     title: "Are parametric assumptions met?",
-    component: () =>
-      "Parametric tests rely on specific assumptions (like normality and homogeneity of variance) to provide accurate results. If these assumptions are not met, the test may give misleading conclusions, and non-parametric alternatives may be more appropriate.",
+    component: () => PARAMETRIC_ASSUMPTIONS_MET,
     choices: [
       {
         answer: "Yes",
@@ -53,8 +55,7 @@ const tree: Record<string, TreeNode> = {
   [ids.RELATED]: {
     type: "question",
     title: "Are parametric assumptions met?",
-    component: () =>
-      "Parametric tests rely on specific assumptions (like normality and homogeneity of variance) to provide accurate results. If these assumptions are not met, the test may give misleading conclusions, and non-parametric alternatives may be more appropriate.",
+    component: () => PARAMETRIC_ASSUMPTIONS_MET,
     choices: [
       {
         answer: "Yes",

@@ -25,19 +25,19 @@ let rootTree = {
         answer: "Continous",
         next: ids.CONTINUOUS,
         option_description:
-          "A continuous outcome measure is a type of outcome measure used in clinical studies to quantify changes in a continuous variable such as blood pressure, weight, or height. It is typically analyzed using statistical methods such a mean, median, or regression analysis.",
+          "A continuous level outcome measure is a type of outcome measure where the data is collected on a continuous scale and presented by a continuous level variable. Examples are: blood pressure, weight, or height. ",
       },
       {
         answer: "Categorical",
         next: ids.CATEGORICAL,
         option_description:
-          "A categorical variable takes on a limited number of discrete values or categories. Categorical variables are often used to represent qualitative or nominal data such as sex, race, disease severity, and treatment group.",
+          "A categorical level outcome measure is a type of outcome measure where the data is collected using pre-defined categories. Examples are:  sex, race, disease severity, and treatment group.",
       },
       {
         answer: "Time To Event",
         next: ids.TTE,
         option_description:
-          "A time-to-event outcome measure is a type of clinical trial outcome that captures the time it takes for an event to occur, such as disease progression or death. It is a powerful measure that allows for the analysis of the duration of the event and provides insights into the treatment effect over time.",
+          "A time to event outcome measure is a type of outcome measure used when the focus of analysis is not only on the occurrence of an event of interest, but also on the time it took for the event to happen. Examples are: time to death, time to recovery, time to recurrence. ",
       },
     ],
   },

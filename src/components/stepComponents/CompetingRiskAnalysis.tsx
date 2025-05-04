@@ -4,8 +4,10 @@ const Component = () => {
   return (
     <>
       <Text span>
-        Competing Risk Analysis is used to analyze time-to-event outcomes when
-        there are multiple mutually exclusive and independent competing events.
+        Competing Risk Analysis. It is a type of time to event analysis used in
+        studies where a participant may experience one of several different
+        types of events, but once one event occurs, the others are no longer
+        possible for that individual.
       </Text>
       <Text>
         The primary objective of Competing Risk Analysis is to examine the
@@ -13,9 +15,7 @@ const Component = () => {
         of different events, while accounting for the presence of competing
         risks. By considering all possible outcomes, this analysis technique
         provides a more comprehensive understanding of the factors influencing
-        each event. When conducting Competing Risk Analysis, it is crucial to
-        account for the fact that individuals can experience one event while
-        being at risk of experiencing a different event.
+        each event.
       </Text>
       <Text>
         This statistical approach allows researchers to assess the effects of
